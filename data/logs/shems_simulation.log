@@ -1,0 +1,223 @@
+2025-04-18 17:37:03,073 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 4 devices over 5 days
+2025-04-18 17:37:03,102 - SHEMS-Simulator - INFO - Created 4 devices for user 1
+2025-04-18 17:37:03,821 - SHEMS-Simulator - INFO - Generated data for device 1 (Fan #1)
+2025-04-18 17:37:04,547 - SHEMS-Simulator - INFO - Generated data for device 2 (Smart Light #2)
+2025-04-18 17:37:05,276 - SHEMS-Simulator - INFO - Generated data for device 3 (Game Console #3)
+2025-04-18 17:37:06,013 - SHEMS-Simulator - INFO - Generated data for device 4 (Router #4)
+2025-04-18 17:37:06,022 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-18 17:37:40,467 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 4 devices over 4 days
+2025-04-18 17:37:40,491 - SHEMS-Simulator - INFO - Created 4 devices for user 1
+2025-04-18 17:37:41,066 - SHEMS-Simulator - INFO - Generated data for device 5 (Streaming Box #1)
+2025-04-18 17:37:41,642 - SHEMS-Simulator - INFO - Generated data for device 6 (Game Console #2)
+2025-04-18 17:37:42,229 - SHEMS-Simulator - INFO - Generated data for device 7 (LED Bulb #3)
+2025-04-18 17:37:42,799 - SHEMS-Simulator - INFO - Generated data for device 8 (AC Unit #4)
+2025-04-18 17:37:42,809 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-18 18:04:36,130 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 4 devices over 4 days
+2025-04-18 18:04:36,152 - SHEMS-Simulator - INFO - Created 4 devices for user 1
+2025-04-18 18:04:36,744 - SHEMS-Simulator - INFO - Generated data for device 9 (Lamp #1)
+2025-04-18 18:04:37,327 - SHEMS-Simulator - INFO - Generated data for device 10 (Unknown Device #2)
+2025-04-18 18:04:37,907 - SHEMS-Simulator - INFO - Generated data for device 11 (Washing Machine #3)
+2025-04-18 18:04:38,488 - SHEMS-Simulator - INFO - Generated data for device 12 (Ceiling Light #4)
+2025-04-18 18:04:38,498 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-18 19:04:39,112 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 4 devices over 4 days
+2025-04-18 19:04:39,140 - SHEMS-Simulator - INFO - Created 4 devices for user 1
+2025-04-18 19:04:39,794 - SHEMS-Simulator - INFO - Generated data for device 13 (Ceiling Light #1)
+2025-04-18 19:04:40,416 - SHEMS-Simulator - INFO - Generated data for device 14 (Air Purifier #2)
+2025-04-18 19:04:41,026 - SHEMS-Simulator - INFO - Generated data for device 15 (Unknown Device #3)
+2025-04-18 19:04:41,670 - SHEMS-Simulator - INFO - Generated data for device 16 (Unknown Device #4)
+2025-04-18 19:04:41,680 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-18 19:06:25,546 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 4 devices over 4 days
+2025-04-18 19:06:25,578 - SHEMS-Simulator - INFO - Created 4 devices for user 1
+2025-04-18 19:06:26,227 - SHEMS-Simulator - INFO - Generated data for device 17 (Unknown Device #1)
+2025-04-18 19:06:26,849 - SHEMS-Simulator - INFO - Generated data for device 18 (Lamp #2)
+2025-04-18 19:06:27,476 - SHEMS-Simulator - INFO - Generated data for device 19 (Smart Plug #3)
+2025-04-18 19:06:28,083 - SHEMS-Simulator - INFO - Generated data for device 20 (Fan #4)
+2025-04-18 19:06:28,086 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-18 19:23:14,885 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 4 devices over 4 days
+2025-04-18 19:23:14,911 - SHEMS-Simulator - INFO - Created 4 devices for user 1
+2025-04-18 19:23:15,557 - SHEMS-Simulator - INFO - Generated data for device 21 (Ceiling Light #1)
+2025-04-18 19:23:16,153 - SHEMS-Simulator - INFO - Generated data for device 22 (Microwave #2)
+2025-04-18 19:23:16,768 - SHEMS-Simulator - INFO - Generated data for device 23 (Fan #3)
+2025-04-18 19:23:17,387 - SHEMS-Simulator - INFO - Generated data for device 24 (Microwave #4)
+2025-04-18 19:23:17,393 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-18 19:29:06,245 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 4 devices over 4 days
+2025-04-18 19:29:06,270 - SHEMS-Simulator - INFO - Created 4 devices for user 1
+2025-04-18 19:29:06,908 - SHEMS-Simulator - INFO - Generated data for device 25 (Router #1)
+2025-04-18 19:29:07,505 - SHEMS-Simulator - INFO - Generated data for device 26 (Dishwasher #2)
+2025-04-18 19:29:08,110 - SHEMS-Simulator - INFO - Generated data for device 27 (Air Purifier #3)
+2025-04-18 19:29:08,716 - SHEMS-Simulator - INFO - Generated data for device 28 (Router #4)
+2025-04-18 19:29:08,723 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-18 20:17:10,709 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 4 devices over 4 days
+2025-04-18 20:17:10,733 - SHEMS-Simulator - INFO - Created 4 devices for user 1
+2025-04-18 20:17:11,384 - SHEMS-Simulator - INFO - Generated data for device 29 (Router #1)
+2025-04-18 20:17:11,994 - SHEMS-Simulator - INFO - Generated data for device 30 (Charger #2)
+2025-04-18 20:17:12,599 - SHEMS-Simulator - INFO - Generated data for device 31 (AC Unit #3)
+2025-04-18 20:17:13,208 - SHEMS-Simulator - INFO - Generated data for device 32 (Smart Light #4)
+2025-04-18 20:17:13,215 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-18 20:58:43,458 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 4 devices over 4 days
+2025-04-18 20:58:43,485 - SHEMS-Simulator - INFO - Created 4 devices for user 1
+2025-04-18 20:58:44,130 - SHEMS-Simulator - INFO - Generated data for device 33 (Smart Light #1)
+2025-04-18 20:58:44,745 - SHEMS-Simulator - INFO - Generated data for device 34 (Ceiling Light #2)
+2025-04-18 20:58:45,334 - SHEMS-Simulator - INFO - Generated data for device 35 (Refrigerator #3)
+2025-04-18 20:58:45,937 - SHEMS-Simulator - INFO - Generated data for device 36 (Lamp #4)
+2025-04-18 20:58:45,944 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-18 21:19:19,339 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 1 devices over 1 days
+2025-04-18 21:19:19,357 - SHEMS-Simulator - INFO - Created 1 devices for user 1
+2025-04-18 21:19:19,570 - SHEMS-Simulator - INFO - Generated data for device 37 (Router #1)
+2025-04-18 21:19:19,576 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-18 21:22:51,830 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 1 devices over 1 days
+2025-04-18 21:22:51,848 - SHEMS-Simulator - INFO - Created 1 devices for user 1
+2025-04-18 21:22:52,063 - SHEMS-Simulator - INFO - Generated data for device 38 (AC Unit #1)
+2025-04-18 21:22:52,070 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-18 21:41:26,042 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 1 devices over 1 days
+2025-04-18 21:41:26,064 - SHEMS-Simulator - INFO - Created 1 devices for user 1
+2025-04-18 21:41:26,294 - SHEMS-Simulator - INFO - Generated data for device 39 (Smart Plug #1)
+2025-04-18 21:41:26,301 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-18 21:42:32,077 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 1 devices over 1 days
+2025-04-18 21:42:32,095 - SHEMS-Simulator - INFO - Created 1 devices for user 1
+2025-04-18 21:42:32,318 - SHEMS-Simulator - INFO - Generated data for device 40 (Charger #1)
+2025-04-18 21:42:32,325 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-18 22:11:00,555 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 1 devices over 1 days
+2025-04-18 22:11:00,577 - SHEMS-Simulator - INFO - Created 1 devices for user 1
+2025-04-18 22:11:00,787 - SHEMS-Simulator - INFO - Generated data for device 41 (Unknown Device #1)
+2025-04-18 22:11:00,794 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-18 22:53:26,136 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 1 devices over 1 days
+2025-04-18 22:53:26,241 - SHEMS-Simulator - INFO - Created 1 devices for user 1
+2025-04-18 22:53:26,446 - SHEMS-Simulator - INFO - Generated data for device 42 (Streaming Box #1)
+2025-04-18 22:53:26,453 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-18 23:02:27,017 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 1 devices over 1 days
+2025-04-18 23:02:27,038 - SHEMS-Simulator - INFO - Created 1 devices for user 1
+2025-04-18 23:02:27,261 - SHEMS-Simulator - INFO - Generated data for device 43 (Ceiling Light #1)
+2025-04-18 23:02:27,268 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-18 23:08:50,405 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 1 devices over 1 days
+2025-04-18 23:08:50,454 - SHEMS-Simulator - INFO - Created 1 devices for user 1
+2025-04-18 23:08:50,736 - SHEMS-Simulator - INFO - Generated data for device 44 (Refrigerator #1)
+2025-04-18 23:08:50,754 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-18 23:29:40,219 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 1 devices over 1 days
+2025-04-18 23:29:40,252 - SHEMS-Simulator - INFO - Created 1 devices for user 1
+2025-04-18 23:29:40,472 - SHEMS-Simulator - INFO - Generated data for device 45 (Fan #1)
+2025-04-18 23:29:40,479 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-18 23:43:24,321 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 1 devices over 1 days
+2025-04-18 23:43:24,349 - SHEMS-Simulator - INFO - Created 1 devices for user 1
+2025-04-18 23:43:24,570 - SHEMS-Simulator - INFO - Generated data for device 46 (Dishwasher #1)
+2025-04-18 23:43:24,578 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-19 00:47:58,095 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 1 devices over 1 days
+2025-04-19 00:47:58,116 - SHEMS-Simulator - INFO - Created 1 devices for user 1
+2025-04-19 00:47:58,340 - SHEMS-Simulator - INFO - Generated data for device 47 (Heater #1)
+2025-04-19 00:47:58,346 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-19 00:51:07,416 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 1 devices over 1 days
+2025-04-19 00:51:07,435 - SHEMS-Simulator - INFO - Created 1 devices for user 1
+2025-04-19 00:51:07,661 - SHEMS-Simulator - INFO - Generated data for device 48 (Charger #1)
+2025-04-19 00:51:07,668 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-19 01:29:34,606 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 1 devices over 1 days
+2025-04-19 01:29:34,664 - SHEMS-Simulator - INFO - Created 1 devices for user 1
+2025-04-19 01:29:34,882 - SHEMS-Simulator - INFO - Generated data for device 49 (Streaming Box #1)
+2025-04-19 01:29:34,889 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-19 01:33:30,435 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 1 devices over 1 days
+2025-04-19 01:33:30,454 - SHEMS-Simulator - INFO - Created 1 devices for user 1
+2025-04-19 01:33:30,671 - SHEMS-Simulator - INFO - Generated data for device 50 (Heater #1)
+2025-04-19 01:33:30,680 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-19 01:59:23,822 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 1 devices over 1 days
+2025-04-19 01:59:23,842 - SHEMS-Simulator - INFO - Created 1 devices for user 1
+2025-04-19 01:59:24,062 - SHEMS-Simulator - INFO - Generated data for device 51 (Unknown Device #1)
+2025-04-19 01:59:24,068 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-19 02:50:29,080 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 1 devices over 1 days
+2025-04-19 02:50:29,101 - SHEMS-Simulator - INFO - Created 1 devices for user 1
+2025-04-19 02:50:29,320 - SHEMS-Simulator - INFO - Generated data for device 52 (AC Unit #1)
+2025-04-19 02:50:29,325 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-19 03:13:55,882 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 1 devices over 1 days
+2025-04-19 03:13:55,903 - SHEMS-Simulator - INFO - Created 1 devices for user 1
+2025-04-19 03:13:56,132 - SHEMS-Simulator - INFO - Generated data for device 53 (Router #1)
+2025-04-19 03:13:56,138 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-19 20:23:17,298 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 1 devices over 1 days
+2025-04-19 20:23:17,322 - SHEMS-Simulator - INFO - Created 1 devices for user 1
+2025-04-19 20:23:17,483 - SHEMS-Simulator - INFO - Generated data for device 54 (Air Purifier #1)
+2025-04-19 20:23:17,489 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-20 01:22:46,431 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 3 devices over 4 days
+2025-04-20 01:22:46,465 - SHEMS-Simulator - INFO - Created 3 devices for user 1
+2025-04-20 01:22:47,083 - SHEMS-Simulator - INFO - Generated data for device 1 (Washing Machine #1)
+2025-04-20 01:22:47,674 - SHEMS-Simulator - INFO - Generated data for device 2 (Heater #2)
+2025-04-20 01:22:48,314 - SHEMS-Simulator - INFO - Generated data for device 3 (Ceiling Light #3)
+2025-04-20 01:22:48,325 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-20 02:32:40,352 - SHEMS-Simulator - INFO - Starting simulation for user 2 with 3 devices over 10 days
+2025-04-20 02:32:40,385 - SHEMS-Simulator - INFO - Created 3 devices for user 2
+2025-04-20 02:32:41,958 - SHEMS-Simulator - INFO - Generated data for device 4 (Charger #1)
+2025-04-20 02:32:43,442 - SHEMS-Simulator - INFO - Generated data for device 5 (Smart Plug #2)
+2025-04-20 02:32:44,938 - SHEMS-Simulator - INFO - Generated data for device 6 (Washing Machine #3)
+2025-04-20 02:32:44,946 - SHEMS-Simulator - INFO - Completed data generation for user 2
+2025-04-26 16:25:46,858 - SHEMS-Simulator - INFO - Starting simulation for user 2 with 4 devices over 5 days
+2025-04-26 16:25:46,909 - SHEMS-Simulator - INFO - Created 4 devices for user 2
+2025-04-26 16:25:47,732 - SHEMS-Simulator - INFO - Generated data for device 7 (Charger #1)
+2025-04-26 16:25:48,487 - SHEMS-Simulator - INFO - Generated data for device 8 (Streaming Box #2)
+2025-04-26 16:25:49,263 - SHEMS-Simulator - INFO - Generated data for device 9 (Game Console #3)
+2025-04-26 16:25:50,018 - SHEMS-Simulator - INFO - Generated data for device 10 (Sound System #4)
+2025-04-26 16:25:50,026 - SHEMS-Simulator - INFO - Completed data generation for user 2
+2025-04-26 16:26:11,158 - SHEMS-Simulator - INFO - Starting simulation for user 2 with 4 devices over 5 days
+2025-04-26 16:26:11,228 - SHEMS-Simulator - INFO - Created 4 devices for user 2
+2025-04-26 16:26:11,939 - SHEMS-Simulator - INFO - Generated data for device 11 (Game Console #1)
+2025-04-26 16:26:12,678 - SHEMS-Simulator - INFO - Generated data for device 12 (Charger #2)
+2025-04-26 16:26:13,426 - SHEMS-Simulator - INFO - Generated data for device 13 (Ceiling Light #3)
+2025-04-26 16:26:14,217 - SHEMS-Simulator - INFO - Generated data for device 14 (Lamp #4)
+2025-04-26 16:26:14,223 - SHEMS-Simulator - INFO - Completed data generation for user 2
+2025-04-26 16:26:27,293 - SHEMS-Simulator - INFO - Starting simulation for user 3 with 4 devices over 5 days
+2025-04-26 16:26:27,315 - SHEMS-Simulator - INFO - Created 4 devices for user 3
+2025-04-26 16:26:28,145 - SHEMS-Simulator - INFO - Generated data for device 15 (Lamp #1)
+2025-04-26 16:26:28,959 - SHEMS-Simulator - INFO - Generated data for device 16 (Streaming Box #2)
+2025-04-26 16:26:29,702 - SHEMS-Simulator - INFO - Generated data for device 17 (Washing Machine #3)
+2025-04-26 16:26:30,438 - SHEMS-Simulator - INFO - Generated data for device 18 (AC Unit #4)
+2025-04-26 16:26:30,450 - SHEMS-Simulator - INFO - Completed data generation for user 3
+2025-04-26 16:50:44,451 - SHEMS-Simulator - INFO - Starting simulation for user 3 with 1 devices over 1 days
+2025-04-26 16:50:44,548 - SHEMS-Simulator - INFO - Created 1 devices for user 3
+2025-04-26 16:50:44,730 - SHEMS-Simulator - INFO - Generated data for device 19 (Washing Machine #1)
+2025-04-26 16:50:44,749 - SHEMS-Simulator - INFO - Completed data generation for user 3
+2025-04-26 17:01:49,954 - SHEMS-Simulator - INFO - Starting simulation for user 3 with 2 devices over 3 days
+2025-04-26 17:01:49,973 - SHEMS-Simulator - INFO - Created 2 devices for user 3
+2025-04-26 17:01:50,417 - SHEMS-Simulator - INFO - Generated data for device 20 (AC Unit #1)
+2025-04-26 17:01:50,871 - SHEMS-Simulator - INFO - Generated data for device 21 (Unknown Device #2)
+2025-04-26 17:01:50,877 - SHEMS-Simulator - INFO - Completed data generation for user 3
+2025-04-26 17:02:13,191 - SHEMS-Simulator - INFO - Starting simulation for user 3 with 2 devices over 3 days
+2025-04-26 17:02:13,212 - SHEMS-Simulator - INFO - Created 2 devices for user 3
+2025-04-26 17:02:13,652 - SHEMS-Simulator - INFO - Generated data for device 22 (Smart Plug #1)
+2025-04-26 17:02:14,092 - SHEMS-Simulator - INFO - Generated data for device 23 (Refrigerator #2)
+2025-04-26 17:02:14,099 - SHEMS-Simulator - INFO - Completed data generation for user 3
+2025-04-26 17:02:23,724 - SHEMS-Simulator - INFO - Starting simulation for user 3 with 1 devices over 1 days
+2025-04-26 17:02:23,743 - SHEMS-Simulator - INFO - Created 1 devices for user 3
+2025-04-26 17:02:23,899 - SHEMS-Simulator - INFO - Generated data for device 24 (Smart Light #1)
+2025-04-26 17:02:23,906 - SHEMS-Simulator - INFO - Completed data generation for user 3
+2025-04-26 17:05:19,515 - SHEMS-Simulator - INFO - Starting simulation for user 4 with 1 devices over 1 days
+2025-04-26 17:05:19,541 - SHEMS-Simulator - INFO - Created 1 devices for user 4
+2025-04-26 17:05:19,690 - SHEMS-Simulator - INFO - Generated data for device 25 (Smart Plug #1)
+2025-04-26 17:05:19,697 - SHEMS-Simulator - INFO - Completed data generation for user 4
+2025-04-26 17:08:29,445 - SHEMS-Simulator - INFO - Starting simulation for user 3 with 1 devices over 1 days
+2025-04-26 17:08:29,461 - SHEMS-Simulator - INFO - Created 1 devices for user 3
+2025-04-26 17:08:29,608 - SHEMS-Simulator - INFO - Generated data for device 26 (Heater #1)
+2025-04-26 17:08:29,615 - SHEMS-Simulator - INFO - Completed data generation for user 3
+2025-04-26 17:08:31,542 - SHEMS-Simulator - INFO - Starting simulation for user 3 with 1 devices over 1 days
+2025-04-26 17:08:31,560 - SHEMS-Simulator - INFO - Created 1 devices for user 3
+2025-04-26 17:08:31,715 - SHEMS-Simulator - INFO - Generated data for device 27 (Air Purifier #1)
+2025-04-26 17:08:31,722 - SHEMS-Simulator - INFO - Completed data generation for user 3
+2025-04-26 17:20:02,712 - SHEMS-Simulator - INFO - Starting simulation for user 3 with 1 devices over 1 days
+2025-04-26 17:20:02,732 - SHEMS-Simulator - INFO - Created 1 devices for user 3
+2025-04-26 17:20:02,881 - SHEMS-Simulator - INFO - Generated data for device 28 (Smart Light #1)
+2025-04-26 17:20:02,888 - SHEMS-Simulator - INFO - Completed data generation for user 3
+2025-04-26 17:20:19,033 - SHEMS-Simulator - INFO - Starting simulation for user 3 with 1 devices over 1 days
+2025-04-26 17:20:19,050 - SHEMS-Simulator - INFO - Created 1 devices for user 3
+2025-04-26 17:20:19,271 - SHEMS-Simulator - INFO - Generated data for device 29 (Streaming Box #1)
+2025-04-26 17:20:19,274 - SHEMS-Simulator - INFO - Completed data generation for user 3
+2025-04-26 17:55:48,370 - SHEMS-Simulator - INFO - Starting simulation for user 4 with 1 devices over 1 days
+2025-04-26 17:55:48,391 - SHEMS-Simulator - INFO - Created 1 devices for user 4
+2025-04-26 17:55:48,603 - SHEMS-Simulator - INFO - Generated data for device 30 (Refrigerator #1)
+2025-04-26 17:55:48,611 - SHEMS-Simulator - INFO - Completed data generation for user 4
+2025-04-27 22:00:29,713 - SHEMS-Simulator - INFO - Starting simulation for user 3 with 1 devices over 1 days
+2025-04-27 22:00:29,757 - SHEMS-Simulator - INFO - Created 1 devices for user 3
+2025-04-27 22:00:29,904 - SHEMS-Simulator - INFO - Generated data for device 31 (Microwave #1)
+2025-04-27 22:00:29,911 - SHEMS-Simulator - INFO - Completed data generation for user 3
+2025-04-27 22:18:06,352 - SHEMS-Simulator - INFO - Starting simulation for user 1 with 1 devices over 1 days
+2025-04-27 22:18:06,368 - SHEMS-Simulator - INFO - Created 1 devices for user 1
+2025-04-27 22:18:06,502 - SHEMS-Simulator - INFO - Generated data for device 1 (Router #1)
+2025-04-27 22:18:06,508 - SHEMS-Simulator - INFO - Completed data generation for user 1
+2025-04-27 22:45:24,383 - SHEMS-Simulator - INFO - Starting simulation for user 2 with 2 devices over 2 days
+2025-04-27 22:45:24,406 - SHEMS-Simulator - INFO - Created 2 devices for user 2
+2025-04-27 22:45:24,677 - SHEMS-Simulator - INFO - Generated data for device 2 (Ceiling Light #1)
+2025-04-27 22:45:24,931 - SHEMS-Simulator - INFO - Generated data for device 3 (Game Console #2)
+2025-04-27 22:45:24,940 - SHEMS-Simulator - INFO - Completed data generation for user 2

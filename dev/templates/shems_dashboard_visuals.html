@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHEMS - Energy Monitoring</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .dashboard-header {
+            background-color: #343a40;
+            color: white;
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+        }
+        .greeting {
+            font-size: 1.2rem;
+        }
+        .grafana-container {
+            height: 600px;
+            width: 100%;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            margin-bottom: 2rem;
+        }
+        .device-summary {
+            margin-bottom: 2rem;
+        }
+        .nav-tabs {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Smart Home Energy Monitoring</h1>
+                    <p class="greeting">Welcome back, <span id="username-display"></span>!</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <p id="current-date" class="mb-0"></p>
+                    <p class="mb-0"><small>System Time: <span id="current-time"></span></small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="system-info alert alert-info">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>System Information</h5>
+                    <div id="access-points"></div>
+                    <div id="tailscale-info"></div>
+                </div>
+                <div class="col-md-6 text-end">
+                    <button id="refresh-btn" class="btn btn-sm btn-outline-primary me-2">Refresh Data</button>
+                    <button id="logout-btn" class="btn btn-sm btn-outline-danger">Logout</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="device-summary">
+            <h3>Device Summary</h3>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card text-white bg-primary mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Total Devices</h5>
+                            <p class="card-text display-4" id="total-devices">0</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-white bg-success mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Active Time</h5>
+                            <p class="card-text display-4" id="active-devices">0</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-white bg-warning mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Power Usage</h5>
+                            <p class="card-text display-4" id="total-power">0 <small>W</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-white bg-info mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Energy Today</h5>
+                            <p class="card-text display-4" id="total-energy">0 <small>kWh</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <ul class="nav nav-tabs" id="dashboardTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview" type="button" role="tab">Overview</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="power-tab" data-bs-toggle="tab" data-bs-target="#power" type="button" role="tab">Power Analysis</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="energy-tab" data-bs-toggle="tab" data-bs-target="#energy" type="button" role="tab">Energy Analysis</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="devices-tab" data-bs-toggle="tab" data-bs-target="#devices" type="button" role="tab">Device Details</button>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="dashboardTabsContent">
+            <div class="tab-pane fade show active" id="overview" role="tabpanel">
+                <div class="grafana-container" id="overview-grafana"></div>
+            </div>
+            <div class="tab-pane fade" id="power" role="tabpanel">
+                <div class="grafana-container" id="power-grafana"></div>
+            </div>
+            <div class="tab-pane fade" id="energy" role="tabpanel">
+                <div class="grafana-container" id="energy-grafana"></div>
+            </div>
+            <div class="tab-pane fade" id="devices" role="tabpanel">
+                <div class="grafana-container" id="devices-grafana"></div>
+            </div>
+        </div>
+
+        <footer class="text-center mt-5 mb-3 text-muted">
+            <p>Created by BITS MIS | <span id="last-updated"></span></p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Update date and time
+        function updateDateTime() {
+            const now = new Date();
+            document.getElementById('current-date').textContent = now.toLocaleDateString('en-US', {
+                weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+            });
+            document.getElementById('current-time').textContent = now.toLocaleTimeString();
+            document.getElementById('last-updated').textContent = `Last updated: ${now.toLocaleString()}`;
+        }
+        
+        setInterval(updateDateTime, 1000);
+        updateDateTime();
+        
+        // Get user data from session
+        fetch('/api/user-data')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('username-display').textContent = data.username;
+                document.getElementById('total-devices').textContent = data.total_devices;
+                document.getElementById('active-devices').textContent = data.active_devices;
+                document.getElementById('total-power').textContent = data.total_power;
+                document.getElementById('total-energy').textContent = data.total_energy;
+                
+                // Load Grafana dashboards
+                loadGrafanaDashboard('overview-grafana', data.grafana_overview_url);
+                loadGrafanaDashboard('power-grafana', data.grafana_power_url);
+                loadGrafanaDashboard('energy-grafana', data.grafana_energy_url);
+                loadGrafanaDashboard('devices-grafana', data.grafana_devices_url);
+            });
+        
+        // Fetch and display access points
+        fetch('/api/access-points')
+            .then(response => response.json())
+            .then(data => {
+                const accessPointsDiv = document.getElementById('access-points');
+                const tailscaleInfoDiv = document.getElementById('tailscale-info');
+                
+                let accessPointsHTML = '<p><strong>Access Points:</strong> ';
+                accessPointsHTML += data.access_points.join(', ');
+                accessPointsHTML += '</p>';
+                
+                accessPointsDiv.innerHTML = accessPointsHTML;
+                
+                if (data.tailscale_ip) {
+                    tailscaleInfoDiv.innerHTML = `<p><strong>Tailscale IP:</strong> ${data.tailscale_ip}</p>`;
+                }
+            });
+        
+        function loadGrafanaDashboard(containerId, url) {
+            const container = document.getElementById(containerId);
+            if (container && url) {
+                container.innerHTML = `<iframe src="${url}" width="100%" height="100%" frameborder="0" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" allow="cross-origin-isolated"></iframe>`;
+            }
+        }
+        
+        document.getElementById('refresh-btn').addEventListener('click', () => {
+            location.reload();
+        });
+        
+        document.getElementById('logout-btn').addEventListener('click', () => {
+            fetch('/logout', { method: 'POST' })
+                .then(() => {
+                    window.location.href = '/';
+                });
+        });
+    </script>
+</body>
+</html>

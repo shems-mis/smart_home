@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Error - Smart Home Energy Monitoring System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #f6f6f6;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            text-align: center;
+            margin-top: 10%;
+        }
+        h1 {
+            font-size: 3em;
+            color: #d9534f;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 20px auto;
+        }
+        a {
+            text-decoration: none;
+            color: #0275d8;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .icon {
+            font-size: 4em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">⚠️</div>
+        <h1>Oops! Something went wrong.</h1>
+        <p>We encountered an unexpected error. Please try again later or contact support.</p>
+        <p><a href="{{ url_for('index') }}">Return to Home</a></p>
+    </div>
+</body>
+</html>
+
